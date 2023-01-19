@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Smart.Paging</name>
+    </assembly>
+    <members>
+        <member name="T:Smart.Paging.Pagination">
+            <summary>
+            Pagination
+            </summary>
+        </member>
+        <member name="M:Smart.Paging.Pagination.Paginate``1(System.Linq.IQueryable{``0},Smart.Paging.PaginationParams)">
+            <summary>
+            Paginate
+            </summary>
+            <param name="source"></param>
+            <param name="paginationParams"></param>
+            <typeparam name="T"></typeparam>
+            <returns>PaginationResult</returns>
+        </member>
+        <member name="M:Smart.Paging.Pagination.Paginate``1(System.Linq.IQueryable{``0},System.Int32,System.Int32)">
+            <summary>
+            Paginate
+            </summary>
+            <param name="source"></param>
+            <param name="pageSize"></param>
+            pageSize: minimum size of 5
+            <param name="page"></param>
+            <typeparam name="T"></typeparam>
+            <returns>PaginationResult</returns>
+        </member>
+        <member name="M:Smart.Paging.Pagination.Paginate``1(System.Linq.IQueryable{``0},System.Int32)">
+            <summary>
+            Paginate
+            </summary>
+            <param name="source"></param>
+            <param name="pageSize"></param>
+            pageSize: minimum size of 5
+            <typeparam name="T"></typeparam>
+            <returns>PaginationResult</returns>
+        </member>
+        <member name="T:Smart.Paging.PaginationParams">
+            <summary>
+            PaginationParams:
+            PageSize has minimum of 5
+            </summary>
+        </member>
+        <member name="M:Smart.Paging.PaginationParams.Deconstruct(System.Int32@,System.Int32@)">
+            <summary>
+            Deconstruct
+            </summary>
+            <param name="pageSize"></param>
+            <param name="page"></param>
+        </member>
+        <member name="P:Smart.Paging.PaginationParams.PageSize">
+            <summary>
+            PageSize
+            </summary>
+        </member>
+        <member name="P:Smart.Paging.PaginationParams.Page">
+            <summary>
+            Page
+            </summary>
+        </member>
+        <member name="T:Smart.Paging.PaginationResult`1">
+            <summary>
+            PaginationResult
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:Smart.Paging.PaginationResult`1.CurrentPage">
+            <summary>
+            CurrentPage
+            </summary>
+        </member>
+        <member name="P:Smart.Paging.PaginationResult`1.Data">
+            <summary>
+            Data
+            </summary>
+        </member>
+        <member name="P:Smart.Paging.PaginationResult`1.CurrentPageRecord">
+            <summary>
+            CurrentPageRecord
+            </summary>
+        </member>
+        <member name="P:Smart.Paging.PaginationResult`1.PageSize">
+            <summary>
+            PageSize
+            </summary>
+        </member>
+        <member name="P:Smart.Paging.PaginationResult`1.NextPage">
+            <summary>
+            NextPage
+            </summary>
+        </member>
+        <member name="P:Smart.Paging.PaginationResult`1.PreviousPage">
+            <summary>
+            PreviousPage
+            </summary>
+        </member>
+        <member name="P:Smart.Paging.PaginationResult`1.TotalPages">
+            <summary>
+            TotalPages
+            </summary>
+        </member>
+        <member name="P:Smart.Paging.PaginationResult`1.TotalRecord">
+            <summary>
+            TotalRecord
+            </summary>
+        </member>
+    </members>
+</doc>

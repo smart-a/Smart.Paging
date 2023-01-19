@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Authors>Adesoye Abeeb Olalekan</Authors>
+        <Description>A simple .Net Core paginator Package</Description>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>smart-paging.snk</AssemblyOriginatorKeyFile>
+        <PackageVersion>1.0.4</PackageVersion>
+        <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+        <IsPackable>true</IsPackable>
+        <PublicSign>true</PublicSign>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <DocumentationFile>Smart.Paging.xml</DocumentationFile>
+    </PropertyGroup>
+
+</Project>
